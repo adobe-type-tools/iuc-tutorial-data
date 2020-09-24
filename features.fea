@@ -1,0 +1,47 @@
+languagesystem DFLT dflt;
+
+# single substitution: stylistic alternates
+feature salt {
+    substitute a by a.alt;
+    substitute g by g.alt;
+} salt;
+
+# ligature substitution
+feature liga {
+    sub f f i by f_f_i;
+    sub f f l by f_f_l;
+    sub f i by f_i;
+    sub f l by f_l;
+} liga;
+
+
+# glyph classes for numerators, denominators, fractions
+@digits = [zero one two three four five six seven eight nine];
+@numerators = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+@denominators = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+
+feature numr {
+    sub @digits by @numerators;
+} numr;
+
+feature dnom {
+    sub @digits by @denominators;
+} dnom;
+
+feature frac {
+    sub slash by fraction;
+    sub @digits' fraction by @numerators;
+    sub fraction @digits' by @denominators;
+} frac;
+
+
+# kerning: position feature
+feature kern {
+    position A V -14;
+    position A Y -14;
+    position L T -40;
+    position T a -73;
+    position T o -66;
+    position g j 37;
+    # VERY incomplete!
+} kern;
