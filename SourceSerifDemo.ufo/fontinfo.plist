@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>copyright</key>
+	<string>Copyright 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.</string>
+	<key>familyName</key>
+	<string>AFDKO Demo</string>
+	<key>postscriptBlueFuzz</key>
+	<integer>0</integer>
+	<key>postscriptBlueScale</key>
+	<real>0.0375</real>
+	<key>postscriptBlueShift</key>
+	<integer>7</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-250</integer>
+		<integer>-240</integer>
+	</array>
+	<key>postscriptFamilyBlues</key>
+	<array/>
+	<key>postscriptFamilyOtherBlues</key>
+	<array/>
+    <key>postscriptFontName</key>
+    <string>AFDKODemo-Regular</string>
+    <key>postscriptOtherBlues</key>
+    <array/>
+    <key>postscriptStemSnapH</key>
+    <array/>
+    <key>postscriptStemSnapV</key>
+    <array/>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+</dict>
+</plist>

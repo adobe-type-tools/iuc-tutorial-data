@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft.dnom" format="1" >
+	<advance width="256"/>
+	<outline>
+		<contour>
+			<point x="86" y="-99" type="line"/>
+			<point x="216" y="-99" type="line"/>
+			<point x="216" y="-66" type="line"/>
+			<point x="145" y="-58" type="line"/>
+			<point x="145" y="407" type="line"/>
+			<point x="216" y="415" type="line"/>
+			<point x="216" y="448" type="line"/>
+			<point x="86" y="448" type="line"/>
+		</contour>
+	</outline>
+</glyph>
