@@ -37,11 +37,11 @@ feature frac {
 
 # kerning: position feature
 feature kern {
-    position A V -14;
-    position A Y -14;
-    position L T -40;
-    position T a -73;
-    position T o -66;
-    position g j 37;
+    position A V -40;
+    position A Y -40;
+    position L T -20;
+    position T a -80;
+    position T o -80;
+    position g j 40;
     # VERY incomplete!
 } kern;

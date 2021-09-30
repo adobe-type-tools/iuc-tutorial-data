@@ -1,2 +1,2 @@
 # iuc-tutorial-data
-Sample data for IUC44 Tutorial session on AFDKO
+Sample data for IUC45 Tutorial session on AFDKO
